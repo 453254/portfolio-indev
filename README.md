@@ -15,8 +15,8 @@
 Для начала клонируйте репозиторий и установите зависимости:
 
 ```sh
-git clone https://github.com/ваш-логин/ваш-репозиторий.git
-cd ваш-репозиторий
+git clone https://github.com/453254/portfolio.git
+cd portfolio
 ```
 
 ```sh
