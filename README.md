@@ -99,4 +99,4 @@ npm run preview
 - [Vue 3](https://vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [JavaScript]
+- JavaScript
