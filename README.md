@@ -17,7 +17,16 @@
 ```sh
 git clone https://github.com/ваш-логин/ваш-репозиторий.git
 cd ваш-репозиторий
+```
+
+```sh
 npm install
+npx nuxi module add @nuxtjs/tailwindcss
+npx tailwindcss init
+```
+
+```sh
+npm run dev
 ```
 
 ## Запуск
