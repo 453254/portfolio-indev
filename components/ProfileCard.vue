@@ -50,7 +50,7 @@
                 <p class="
                 mx-10
                 text-lg
-                ">Hello! I'm 16 and I'm (almost) fullstack developer in Typescript. I write front end in Vue and Nuxt, back end and bots in Bun. Trying Java for modding utility tools in my free time. I can make make a front end, back end or bot to order. If you are interested contact me!</p>
+                ">Hi! I'm 17 and I'm (almost) a fullstack developer in TypeScript. I write front end in Vue and Nuxt, back end and bots in Python. In my free time, I'm exploring Java for modding utility tools. I can create a front end, back end, or bot to order. If you are interested, contact me!</p>
             
             </div>
         </div>
