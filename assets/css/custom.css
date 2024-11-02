@@ -1,0 +1,50 @@
+.card {
+    cursor: url('H:\Frontend\Projects\portfolio\assets\image\cursor.cur'), auto;
+    border-radius: 1rem; /* rounded-2xl */
+    background-color: #e5e5e5; /* bg-neutral-200 */
+    border-color: #d4d4d4; /* border-neutral-300 */
+    box-shadow: 0 -1px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.1); /* shadow-md */
+    transition: all 0.2s; /* transition-all */
+    border-width: 2px; /* border-2 */
+  }
+  
+  .dark .card {
+    background-color: #171717; /* dark:bg-neutral-900 */
+    border-color: #262626; /* dark:border-neutral-800 */
+    box-shadow: 0 0px 60px -15px rgba(255, 255, 255, 0.01); /* dark:shadow-[0_0px_60px_-15px_rgba(255,255,255,0.01)] */
+  }
+  
+  .dark .card:hover {
+    border-color: #404040; /* dark:hover:border-neutral-700 */
+    box-shadow: 0 0px 60px -15px rgba(255, 255, 255, 0.05); /* dark:hover:shadow-[0_0px_60px_-15px_rgba(255,255,255,0.01)] */
+  }
+  
+  .card:hover {
+    border-color: #a3a3a3; /* hover:border-neutral-400 */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -4px rgba(0, 0, 0, 0.1); /* hover:shadow-lg */
+    transform: translateY(-0.125rem); /* hover:-translate-y-0.5 */
+  }
+
+
+.linkbutton {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    
+    padding: 0.25rem; 
+    transition: transform 1s; 
+
+    border-radius: 0.5rem;
+
+    background-color: hsl(0, 0%, 95%);
+
+    .dark & {
+        background-color: hsl(0, 0%, 13%); 
+        color: hsl(0, 0%, 90%); 
+    }
+}
+
+.linkbutton:hover {
+    transform: scale(0.96);
+}
+

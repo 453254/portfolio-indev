@@ -1,0 +1,51 @@
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+
+.toggle-switch .toggle-input {
+    display: none;
+}
+
+.toggle-switch .toggle-label {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    background-color: #BEBEBE;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-switch .toggle-label::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    background-color: #334155;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.dark .toggle-switch .toggle-label {
+    background-color: #4B4B4B;
+}
+
+.dark .toggle-switch .toggle-label::before {
+    transform: translateX(16px);
+    background-color: #cbd5e1; /* Dark mode - white */
+}
+
+.themetext::before {
+    content: "LIGHT";
+    color: #334155
+}
+
+.dark .themetext::before {
+    content: "DARK";
+    color: #cbd5e1
+}

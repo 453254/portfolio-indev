@@ -1,0 +1,30 @@
+body {
+    color: hsl(0 10% 25%);
+    background-color: hsl(0, 0%, 95%);
+    font-family: Arial, sans-serif;
+}
+
+.dark body {
+    color: hsl(0, 0%, 85%);
+    background-color: hsl(0, 0%, 10%);
+}
+
+svg path {
+    transition: all 1.25s;
+    fill: hsl(0, 0%, 20%); /* Цвет для темной темы */
+
+    .dark & {
+        fill: hsl(0, 0%, 85%); /* Цвет для темной темы */
+    }
+}
+
+::selection {
+    background-color: hsl(0, 0%, 50%); /* Цвет фона выделения */
+    color: hsl(0, 0%, 100%); /* Цвет текста выделения */
+}
+
+/* Для темной темы */
+.dark ::selection {
+    background-color: hsl(0, 0%, 30%); /* Цвет фона выделения для темной темы */
+    color: hsl(0, 0%, 100%); /* Цвет текста выделения для темной темы */
+}
