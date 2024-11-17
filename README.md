@@ -1,19 +1,19 @@
-# Портфолио
+# Portfolio
 
-Это проект портфолио, созданный с использованием Nuxt 3 и Tailwind CSS. Здесь все обо мне
+This is a portfolio project built using Nuxt 3 and Tailwind CSS. Here you'll find everything about me.
 
-## Содержание
+## Table of Contents
 
-- [Установка](#установка)
-- [Запуск](#запуск)
-- [Реализованные функции](#реализованные-функции)
-- [Структура проекта](#структура-проекта)
-- [Используемые технологии](#используемые-технологии)
-- [В будующем](#в-будующем)
+- [Installation](#Installation)
+- [Running](#Running)
+- [Features](#Features)
+- [Project Structure](#Project-Structure)
+- [Technologies Used](#Technologies-Used)
+- [Future Plans](#Future-Plans)
 
-## Установка
+## Installation
 
-Для начала клонируйте репозиторий и установите зависимости:
+First, clone the repository and install the dependencies:
 
 ```sh
 git clone https://github.com/453254/portfolio.git
@@ -30,35 +30,37 @@ npx tailwindcss init
 npm run dev
 ```
 
-## Запуск
+## Running
 
-Для запуска проекта в режиме разработки используйте команду:
+To run the project in development mode, use:
+
 
 ```sh
 npm run dev
 ```
 
-Для сборки статичного проекта используйте команду:
+To build the static project for production:
+
 
 ```sh
 npm run build
 ```
 
-Для предварительного просмотра собранного проекта используйте команду:
+To preview the built project:
 
 ```sh
 npm run preview
 ```
 
-## Реализованные функции
+## Features
 
-- **Переключатель тем**: Возможность переключаться между светлой и темной темами.
-- **Переключатель языков**: Возможность выбирать язык интерфейса. (реализован только переключатель)
-- **Карточки навыков**: Отображение моих навыков с использованием иконок.
-- **Ссылки на социальные сети**: Быстрый доступ к моим профилям в социальных сетях, таких как Telegram и GitHub.
+- **Theme Switcher**: Ability to toggle between light and dark themes.
+- **Language Switcher**: Interface language selection capability (only the switcher is implemented).
+- **Skill Cards**: Display of my skills using icons.
+- **Social Media Links**: Quick access to my social media profiles like Telegram and GitHub.
 
 
-## Структура проекта
+## Project Structure
 
 ```
 └── 📁portfolio
@@ -106,13 +108,13 @@ npm run preview
     └── tsconfig.json
 ```
 
-## Используемые технологии
+## Technologies Used
 
-- [Nuxt 3](https://nuxt.com/) - Фреймворк для создания серверных приложений на Vue.js.
-- [Vue 3](https://vuejs.org/) - Прогрессивный фреймворк для создания пользовательских интерфейсов.
-- [Tailwind CSS](https://tailwindcss.com/) - Утилитарный CSS-фреймворк для стилизации.
-- [TypeScript](https://www.typescriptlang.org/) - язык программирования на основе JavaScript 
+- [Nuxt 3](https://nuxt.com/) - A framework for creating server-side applications with Vue.js.
+- [Vue 3](https://vuejs.org/) - A progressive framework for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for styling.
+- [TypeScript](https://www.typescriptlang.org/) - A programming language based on JavaScript.
 
-## В будующем
+## Future Plans
 
-Добавить карточку со сделанными проектами
+Add a card displaying completed projects.
